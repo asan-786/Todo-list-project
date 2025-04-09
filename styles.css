@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: image-set("https://media.istockphoto.com/id/514914078/photo/coffee-cup-and-notebook-with-to-do-list-planning-concept.jpg?s=612x612&w=0&k=20&c=tdDk8tf5DsPt3n3Iuzcj5mwJKo0ExKFgJO1j5BFlnAA=");
+  }
+  .todo{
+    margin: 20px 20px;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  .todo-container {
+    background-color: rgb(241, 239, 243);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 8px;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #97989e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f9f9f9;
+    margin: 6px 0;
+    padding: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+
+
